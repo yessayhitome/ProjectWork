@@ -22,7 +22,7 @@ public class Dynamic_Xpath {
 		user.sendKeys("mkkarthi");
 		
 		WebElement pwd = driver.findElement(By.xpath("//*[@id='login_form']/descendant::input[@id='username']/ancestor::tr/following::tr/descendant::input[@id='password']"));
-		.sendKeys("mkkarthi");
+		pwd.sendKeys("mkkarthi");
 	}
 
 }
